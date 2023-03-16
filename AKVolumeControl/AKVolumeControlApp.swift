@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct AKVolumeControlApp: App {
+
+    @StateObject var conductor = Conductor()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(conductor)
         }
     }
 }

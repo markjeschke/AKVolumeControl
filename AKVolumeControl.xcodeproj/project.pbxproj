@@ -8,18 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		176B7E1229BBFA15003FE98D /* AKVolumeControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E1129BBFA15003FE98D /* AKVolumeControlApp.swift */; };
-		176B7E1429BBFA15003FE98D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E1329BBFA15003FE98D /* ContentView.swift */; };
 		176B7E1629BBFA16003FE98D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176B7E1529BBFA16003FE98D /* Assets.xcassets */; };
 		176B7E1A29BBFA16003FE98D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176B7E1929BBFA16003FE98D /* Preview Assets.xcassets */; };
+		176B7E2129BBFA30003FE98D /* Conductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E2029BBFA30003FE98D /* Conductor.swift */; };
+		176B7E2429BBFA4F003FE98D /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 176B7E2329BBFA4F003FE98D /* AudioKit */; };
+		176B7E2629BBFAB3003FE98D /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 176B7E2529BBFAB3003FE98D /* Samples */; };
+		176B7E2829BBFAFB003FE98D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E2729BBFAFB003FE98D /* MainView.swift */; };
+		176B7E3029BE72C0003FE98D /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E2F29BE72C0003FE98D /* DetailsView.swift */; };
+		176B7E3229BE9919003FE98D /* VolumeLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E3129BE9919003FE98D /* VolumeLabelView.swift */; };
+		176B7E3429BE9B61003FE98D /* VolumeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E3329BE9B61003FE98D /* VolumeSliderView.swift */; };
+		176B7E3629BE9BA3003FE98D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E3529BE9BA3003FE98D /* Constant.swift */; };
+		176B7E3A29BE9CE5003FE98D /* PlayPauseToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E3929BE9CE5003FE98D /* PlayPauseToggleButton.swift */; };
+		176B7E3F29BEA9A0003FE98D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E3E29BEA9A0003FE98D /* SettingsView.swift */; };
+		176B7E4329BF9538003FE98D /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 176B7E4229BF9538003FE98D /* AudioKitUI */; };
+		176B7E4529BF9560003FE98D /* VolumeMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E4429BF9560003FE98D /* VolumeMeterView.swift */; };
+		176B7E4729BF9963003FE98D /* ComponentLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E4629BF9963003FE98D /* ComponentLayoutView.swift */; };
+		176B7E4929BFF442003FE98D /* RewindBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E4829BFF442003FE98D /* RewindBackButton.swift */; };
+		176B7E4B29BFF4E0003FE98D /* UIPlaybackButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E4A29BFF4E0003FE98D /* UIPlaybackButtons.swift */; };
+		176B7E4D29C022EA003FE98D /* LoopToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E4C29C022EA003FE98D /* LoopToggleButton.swift */; };
+		176B7E5129C103EA003FE98D /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B7E5029C103EA003FE98D /* Formatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		176B7E0E29BBFA15003FE98D /* AKVolumeControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKVolumeControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		176B7E1129BBFA15003FE98D /* AKVolumeControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKVolumeControlApp.swift; sourceTree = "<group>"; };
-		176B7E1329BBFA15003FE98D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		176B7E1529BBFA16003FE98D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		176B7E1729BBFA16003FE98D /* AKVolumeControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AKVolumeControl.entitlements; sourceTree = "<group>"; };
 		176B7E1929BBFA16003FE98D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		176B7E2029BBFA30003FE98D /* Conductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conductor.swift; sourceTree = "<group>"; };
+		176B7E2529BBFAB3003FE98D /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		176B7E2729BBFAFB003FE98D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		176B7E2929BD225D003FE98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		176B7E2F29BE72C0003FE98D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		176B7E3129BE9919003FE98D /* VolumeLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeLabelView.swift; sourceTree = "<group>"; };
+		176B7E3329BE9B61003FE98D /* VolumeSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSliderView.swift; sourceTree = "<group>"; };
+		176B7E3529BE9BA3003FE98D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		176B7E3929BE9CE5003FE98D /* PlayPauseToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPauseToggleButton.swift; sourceTree = "<group>"; };
+		176B7E3E29BEA9A0003FE98D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		176B7E4429BF9560003FE98D /* VolumeMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeMeterView.swift; sourceTree = "<group>"; };
+		176B7E4629BF9963003FE98D /* ComponentLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentLayoutView.swift; sourceTree = "<group>"; };
+		176B7E4829BFF442003FE98D /* RewindBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewindBackButton.swift; sourceTree = "<group>"; };
+		176B7E4A29BFF4E0003FE98D /* UIPlaybackButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPlaybackButtons.swift; sourceTree = "<group>"; };
+		176B7E4C29C022EA003FE98D /* LoopToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopToggleButton.swift; sourceTree = "<group>"; };
+		176B7E5029C103EA003FE98D /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176B7E4329BF9538003FE98D /* AudioKitUI in Frameworks */,
+				176B7E2429BBFA4F003FE98D /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +85,13 @@
 		176B7E1029BBFA15003FE98D /* AKVolumeControl */ = {
 			isa = PBXGroup;
 			children = (
+				176B7E2929BD225D003FE98D /* Info.plist */,
 				176B7E1129BBFA15003FE98D /* AKVolumeControlApp.swift */,
-				176B7E1329BBFA15003FE98D /* ContentView.swift */,
+				176B7E4029BEBE86003FE98D /* Audio Manager */,
+				176B7E3C29BEA041003FE98D /* Views */,
+				176B7E3D29BEA094003FE98D /* Constants */,
+				176B7E2E29BE47EB003FE98D /* Helpers */,
+				176B7E2529BBFAB3003FE98D /* Samples */,
 				176B7E1529BBFA16003FE98D /* Assets.xcassets */,
 				176B7E1729BBFA16003FE98D /* AKVolumeControl.entitlements */,
 				176B7E1829BBFA16003FE98D /* Preview Content */,
@@ -67,6 +105,72 @@
 				176B7E1929BBFA16003FE98D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		176B7E2E29BE47EB003FE98D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				176B7E5029C103EA003FE98D /* Formatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		176B7E3B29BEA01C003FE98D /* Shared Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				176B7E4629BF9963003FE98D /* ComponentLayoutView.swift */,
+				176B7E4F29C0D611003FE98D /* Components */,
+			);
+			path = "Shared Subviews";
+			sourceTree = "<group>";
+		};
+		176B7E3C29BEA041003FE98D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				176B7E2729BBFAFB003FE98D /* MainView.swift */,
+				176B7E2F29BE72C0003FE98D /* DetailsView.swift */,
+				176B7E3E29BEA9A0003FE98D /* SettingsView.swift */,
+				176B7E3B29BEA01C003FE98D /* Shared Subviews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		176B7E3D29BEA094003FE98D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				176B7E3529BE9BA3003FE98D /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		176B7E4029BEBE86003FE98D /* Audio Manager */ = {
+			isa = PBXGroup;
+			children = (
+				176B7E2029BBFA30003FE98D /* Conductor.swift */,
+			);
+			path = "Audio Manager";
+			sourceTree = "<group>";
+		};
+		176B7E4E29C0D603003FE98D /* Playback Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				176B7E4829BFF442003FE98D /* RewindBackButton.swift */,
+				176B7E3929BE9CE5003FE98D /* PlayPauseToggleButton.swift */,
+				176B7E4C29C022EA003FE98D /* LoopToggleButton.swift */,
+			);
+			path = "Playback Buttons";
+			sourceTree = "<group>";
+		};
+		176B7E4F29C0D611003FE98D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				176B7E4429BF9560003FE98D /* VolumeMeterView.swift */,
+				176B7E3129BE9919003FE98D /* VolumeLabelView.swift */,
+				176B7E3329BE9B61003FE98D /* VolumeSliderView.swift */,
+				176B7E4A29BFF4E0003FE98D /* UIPlaybackButtons.swift */,
+				176B7E4E29C0D603003FE98D /* Playback Buttons */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +189,10 @@
 			dependencies = (
 			);
 			name = AKVolumeControl;
+			packageProductDependencies = (
+				176B7E2329BBFA4F003FE98D /* AudioKit */,
+				176B7E4229BF9538003FE98D /* AudioKitUI */,
+			);
 			productName = AKVolumeControl;
 			productReference = 176B7E0E29BBFA15003FE98D /* AKVolumeControl.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +221,10 @@
 				Base,
 			);
 			mainGroup = 176B7E0529BBFA15003FE98D;
+			packageReferences = (
+				176B7E2229BBFA4F003FE98D /* XCRemoteSwiftPackageReference "AudioKit" */,
+				176B7E4129BF9538003FE98D /* XCRemoteSwiftPackageReference "AudioKitUI" */,
+			);
 			productRefGroup = 176B7E0F29BBFA15003FE98D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176B7E2629BBFAB3003FE98D /* Samples in Resources */,
 				176B7E1A29BBFA16003FE98D /* Preview Assets.xcassets in Resources */,
 				176B7E1629BBFA16003FE98D /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +252,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				176B7E1429BBFA15003FE98D /* ContentView.swift in Sources */,
+				176B7E5129C103EA003FE98D /* Formatter.swift in Sources */,
+				176B7E3229BE9919003FE98D /* VolumeLabelView.swift in Sources */,
+				176B7E4929BFF442003FE98D /* RewindBackButton.swift in Sources */,
+				176B7E3A29BE9CE5003FE98D /* PlayPauseToggleButton.swift in Sources */,
+				176B7E3629BE9BA3003FE98D /* Constant.swift in Sources */,
+				176B7E4B29BFF4E0003FE98D /* UIPlaybackButtons.swift in Sources */,
+				176B7E2829BBFAFB003FE98D /* MainView.swift in Sources */,
+				176B7E4529BF9560003FE98D /* VolumeMeterView.swift in Sources */,
+				176B7E3029BE72C0003FE98D /* DetailsView.swift in Sources */,
+				176B7E4D29C022EA003FE98D /* LoopToggleButton.swift in Sources */,
+				176B7E3F29BEA9A0003FE98D /* SettingsView.swift in Sources */,
+				176B7E2129BBFA30003FE98D /* Conductor.swift in Sources */,
 				176B7E1229BBFA15003FE98D /* AKVolumeControlApp.swift in Sources */,
+				176B7E4729BF9963003FE98D /* ComponentLayoutView.swift in Sources */,
+				176B7E3429BE9B61003FE98D /* VolumeSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +395,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AKVolumeControl/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -279,7 +406,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
@@ -307,6 +434,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AKVolumeControl/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -317,7 +445,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
@@ -354,6 +482,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		176B7E2229BBFA4F003FE98D /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		176B7E4129BF9538003FE98D /* XCRemoteSwiftPackageReference "AudioKitUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		176B7E2329BBFA4F003FE98D /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 176B7E2229BBFA4F003FE98D /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		176B7E4229BF9538003FE98D /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 176B7E4129BF9538003FE98D /* XCRemoteSwiftPackageReference "AudioKitUI" */;
+			productName = AudioKitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 176B7E0629BBFA15003FE98D /* Project object */;
 }
